@@ -1,0 +1,58 @@
+@media screen and (max-width: 500){
+    body{
+        background-color: rgb(4, 84, 87);
+    }
+    
+}
+  @media only screen and (max-width: 600px) {
+    .titles {
+      flex-direction: column;
+      align-items: center;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+  }
+  
+body{
+    background-color: rgb(69, 145, 148);
+ 
+}
+header {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(61, 166, 226);
+}
+nav{
+    background-color: black;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    border-color: aliceblue;
+
+}
+nav a{ 
+    text-align: center;
+    color: mistyrose;
+    margin-left: 150px;
+   
+}
+nav a:hover{ 
+    color: rgb(33, 120, 145);
+    background-color: rgb(225, 252, 252);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#btn{
+    margin-left: 500px;
+    padding-top:10px;
+    
+}
